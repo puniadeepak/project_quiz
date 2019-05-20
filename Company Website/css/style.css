@@ -1,0 +1,454 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 27, 2018, 2:47:10 PM
+    Author     : Himanshu
+*/
+
+
+
+nav{
+    overflow: auto;
+    width: 100%; /* Full width */
+    background-color: white;
+    margin: auto;
+
+
+}
+
+.cardView {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+
+}
+
+nav img {
+
+    width: 11%;
+    height: 11%;
+    margin-left: 4%;
+    margin: 2%;
+}
+
+
+#navImg {
+
+    display: inline-block;
+    float: left;
+    width: 50%;
+}
+
+#navUl{
+    text-align: right;
+    display: inline-block;
+    width: 50%;
+
+}
+
+nav ul{
+
+    list-style: none;
+    padding-top: 1.5em;
+
+}
+
+nav ul li{
+
+    display:inline;
+    padding: 0px 8px;
+    /*color: white;*/
+
+}
+
+ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: bold;
+    color: gray;
+}
+
+ul li a:hover{
+
+    color: black;
+}
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#bannerImage {
+    text-align: center;
+    max-width: 100%;
+
+}
+
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+    font-family: sofia;
+    border-style: dotted;
+    border-color: plum;
+
+
+}
+
+.overLay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    opacity: 0.5;
+    width: 60%;
+    height: 20em;
+}
+
+/* Style for the footer specifies font size, text alignment, and top margin */
+footer {
+    font-size: .70em;
+    text-align: center;
+    margin-top: 2em;
+    color: gray;
+    background-color: #f2f2f2;
+    padding: 1%;
+}
+
+#desc {
+    margin: 1%;
+    height: 20em;
+    padding: 2%;
+    overflow: auto;
+}
+
+#desc img{
+    float: right;
+    width:20%;
+    height:20%;
+    margin-left:15px;
+
+}
+
+#gallery {
+    text-align: center;
+    padding: 2%;
+}
+
+
+
+* {
+    box-sizing: border-box;
+    clear: both;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.header {
+    text-align: center;
+    padding: 32px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    max-width: 33.33%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+footer a{
+
+    text-decoration: none;
+    color: gray;
+
+}
+
+footer a:hover{
+
+    color: black;
+
+}
+
+#divleft{
+    vertical-align: top;
+    display: inline-block;
+    float: left;
+    text-align: left;
+    width: 20%;
+    margin-left: 15%;
+
+}
+
+#divleftcenter{
+    vertical-align: top;
+    display: inline-block;
+    text-align: left;
+    width: 20%;
+
+}
+
+#divright{
+    vertical-align: top;
+    display: inline-block;
+    text-align: left;
+    width: 20%;
+
+}
+
+#divrightcenter{
+    vertical-align: top;
+    display: inline-block;
+    text-align: left;
+    width: 20%;
+
+}
+
+#copyRight {
+    margin: 1%;
+    text-align: center;
+}
+
+#copyRight img {
+    display: inline-block; 
+    max-width: 4%; 
+
+}
+
+/*Contact Page specific Styles*/
+
+#contact {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+
+}
+
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+#address{
+    display: inline-block;
+    float: left;
+    width: 50%;
+    padding: 1%;
+    text-align: center;
+    background-color: white;
+
+}
+
+#map{
+    display: inline-block;
+    width: 50%;
+    padding: 1%;
+    background-color: white;
+}
+
+/*About Page specific Styles*/
+#about img{
+    width: 20%;
+    height: 20%;
+    float: left;
+    margin-right: 15px;
+}
+
+#member1 {
+
+    display: inline-block;
+    width: 20%;
+    margin: 1%;
+    background-color: white;
+
+}
+
+#member2 {
+    display: inline-block;
+    width: 20%;
+    margin: 1%;
+    background-color: white;
+}
+
+#member3 {
+    display: inline-block;
+    width: 20%;
+    margin: 1%;
+    background-color: white;
+}
+
+#member4 {
+    display: inline-block;
+    width: 20%;
+    margin: 1%;
+    background-color: white;
+}
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 768px) {
+    .column {
+        max-width: 50%;
+    }
+
+    #navImg {
+        text-align: center;
+        width: 100%;
+    }
+
+    #navUl{
+        text-align: center;
+        width: 100%;
+    }
+
+    nav img {
+
+        width: 11%;
+        height: 11%;
+        margin: 1%;
+    }
+
+    nav ul{
+
+        list-style: none;
+
+    }
+
+    #member1 {
+        display: inline-block;
+        width: 40%;
+        margin: 1%;
+        background-color: white;
+    }
+
+    #member2 {
+        display: inline-block;
+        width: 40%;
+        margin: 1%;
+        background-color: white;
+    }
+
+    #member3 {
+        display: inline-block;
+        width: 40%;
+        margin: 1%;
+        background-color: white;
+
+    }
+
+    #member4 {
+        display: inline-block;
+        width: 40%;
+        margin: 1%;
+        background-color: white;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 480px) {
+    .column {
+        max-width: 100%;
+    }
+
+
+
+    nav ul li{
+
+        display:block;
+        text-align: left;
+        /*color: white;*/
+
+    }
+
+    #member1 {
+        width: 80%;
+        margin: 1%;
+        background-color: white;
+
+    }
+
+    #member2 {
+        width: 80%;
+        margin: 1%;
+        background-color: white;
+
+    }
+
+    #member3 {
+        width: 80%;
+        margin: 1%;
+        background-color: white;
+    }
+
+    #member4 {
+        width: 80%;
+        margin: 1%;
+        background-color: white;
+
+    }
+
+    #address{
+        width: 80%;
+        margin-left: 10%;
+        padding: 1%;
+        text-align: center;
+        background-color: white;
+
+    }
+
+    #map{
+        display: inline-block;
+        width: 50%;
+        padding: 1%;
+        background-color: white;
+    }
+}
+
+
+
+
+
+
+
